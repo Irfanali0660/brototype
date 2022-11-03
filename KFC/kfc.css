@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    font-family: "-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.headinglocation{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid rgb(226, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setlocation{
+    border-radius: 50px;
+    color: white;
+    background-color:#202124;
+    padding: 5px 10px ;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.allowlocation{
+    
+    font-size: 15px;
+}
+.locationimg{
+    padding-right: 10px;
+    width: 13px;
+}
+.kfcheading{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.kfcheadingchild1{
+   width: 30%; 
+   height: 100%;
+  
+   display: flex;
+   align-items: center;
+}
+
+.menu a{
+    padding-left: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:National2-Medium;
+    font-size: 15px;
+}
+.kfcheadingchild1 img{
+   width: 80px;
+}
+.kfcheadingchild2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.sign{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign img{
+    padding-right: 8px;
+}
+.sign a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cash{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    background-size: cover;
+    border-left: 1px solid rgb(216, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cash a{
+    text-decoration: none;
+    color: black;
+}
+.basket{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg");
+  
+}
+.constantheader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: white;
+}
+.secondheader{
+    display: flex;
+    width: 100%;
+    background-color:#212529;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 150px;
+}
+.secondheader button{
+    background-color:#e4002b;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+}
+.secondheader button:hover{
+    background-color: #d92143;
+}
+.secondheader p{
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.firstbgimage{
+    width: 100%;
+    height: 420px;
+    background-image: url(https://images.ctfassets.net/wtodlh47qxpt/4gztBB8yAvtp6jV7JAuLD/093fddbb77a78a44a4d3d5e066c592de/KFC_Peri_Peri_Banner__1440x396px.jpg?w=1536&fit=fill&fm=webp);
+}
+.welcome{
+    background-color: #f8f7f5;
+    width: 86%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+}
+.maincategories{
+    margin: 0 80px 0 278px;
+    height: 110vh;
+}
+.browseandline{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.browseoutline{
+    width: 70%;
+    height: 1px;
+    margin-left: 30px;
+    border-top: 1px solid gray;
+}
+.itemcategories{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.firstpicture{
+   width: 22%;
+   margin: 1.5%;
+   text-align: center;
+   letter-spacing: -1px;
+   background-color: rgb(246, 244, 242);
+}
+.firstpicture img{
+    width: 100%;
+    border-radius: 5px;
+ }
+
+ .firstpicture:nth-child(8) img {
+    width: 80%;
+    border-radius: 5px;
+    padding-top: 50px;
+ }
+ .firstpicture:nth-child(8) h4{
+    margin: 0; 
+ }
+ .firstpicture:nth-child(8) h4 img{
+    width: 20;
+ }
+ .footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #202124;
+ }
+ .offeranddeals{
+    height:100vh;
+    margin: 0 100 0 230px;
+ }
+ .container{
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+ }
+ .redcontainer{
+    width: 15px;
+    height: 6vh;
+    background-color: #e4002b;
+    margin-left: 15px;
+ }
+ .offersandalldeals{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+ }
+ .offersandalldeals a{
+    padding-right: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+ }
+ .offersandalldeals h1{
+    padding-left: 30px;
+ }
+ .itemscontainers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+ }
+.items{
+    width: 27%;
+    height: 55vh;
+    background-color: #ffffff;
+    border-radius: 10px;  
+}
+.items img{
+    width: 100%;
+    border-radius: 10px;
+}
+.items h2{
+    color: #c71818;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin: 10 10;   
+}
+.items p{
+    color: #000000;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 0 20px;
+}
+.viewandredeem {
+    margin:20 30;
+}
+.viewandredeem a{
+    margin-right: 20;
+    color:#494949;
+}
+.viewandredeem a:hover{
+    background-color: #e8e7e5;
+}
+.viewandredeem button{
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.viewandredeem button:hover{
+    background-color: black;
+    color: white;
+}
+.lastfooter{
+    width: 100%;
+    background-color: #202124;
+    height: 40vh;
+}
+.footerkfc{
+    margin-left:8% ;
+    width: 85%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.kfclogo{
+    height: 100%;
+    width: 60px;
+}
+.footermenu{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.kfcfoodfooter{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.kfcfoodfooter a{
+    text-decoration: none;
+    color:white;
+}
+.findkfc{
+    height: 100%;
+    width: 10%;  
+}
+.findkfc a img{
+    padding-right: 10;
+}
+.findkfc a{
+    color: rgb(255, 255, 255);
+}
+.playstore{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #202124;
+    justify-content: center;
+    position: relative;
+}
+.copyright p{
+    color:#dbdbdb;
+    font-size: 13px;
+}
+.socialmedia{
+    position: absolute;
+    right: 100px;
+}
+.socialmedia img{
+    margin-left: 10px;
+}
